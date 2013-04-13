@@ -30,7 +30,19 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/oppo/find5/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
 	vendor/oppo/find5/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-	vendor/oppo/find5/proprietary/lib/libgsl.so:system/lib/libgsl.so
+	vendor/oppo/find5/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+	vendor/oppo/find5/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+	vendor/oppo/find5/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+	vendor/oppo/find5/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+	vendor/oppo/find5/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+	vendor/oppo/find5/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+	vendor/oppo/find5/proprietary/lib/libidl.so:system/lib/libidl.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
+	vendor/oppo/find5/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
+
 
 
 # Binaries
@@ -46,4 +58,14 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/oppo/find5/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw
+	vendor/oppo/find5/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
+	vendor/oppo/find5/proprietary/etc/firmware/q6.b06:system/etc/firmware/q6.b06 \
+	vendor/oppo/find5/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+	vendor/oppo/find5/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin
+	
