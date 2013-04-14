@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/oppo/find5/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/oppo/find5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-	vendor/oppo/find5/proprietary/bin/netmgrd:system/bin/nv_tee
+	vendor/oppo/find5/proprietary/bin/nv_tee:system/bin/nv_tee
 
 
 
