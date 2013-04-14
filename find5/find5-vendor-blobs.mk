@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+	vendor/oppo/find5/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960 \
+	vendor/oppo/find5/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
+	vendor/oppo/find5/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+	vendor/oppo/find5/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
 	vendor/oppo/find5/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/oppo/find5/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
 	vendor/oppo/find5/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
@@ -51,7 +55,8 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
-	vendor/oppo/find5/proprietary/bin/qcks:system/bin/qcks
+	vendor/oppo/find5/proprietary/bin/qcks:system/bin/qcks \
+	vendor/oppo/find5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
 
 
 
