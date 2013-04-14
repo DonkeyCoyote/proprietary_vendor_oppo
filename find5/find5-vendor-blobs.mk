@@ -45,12 +45,18 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/oppo/find5/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/oppo/find5/proprietary/lib/libidl.so:system/lib/libidl.so \
+	vendor/oppo/find5/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+	vendor/oppo/find5/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+	vendor/oppo/find5/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_csi.so:system/lib/libmi_csi.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libmi_csvt_srvc.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
-	vendor/oppo/find5/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
-
+	vendor/oppo/find5/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+	vendor/oppo/find5/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+	vendor/oppo/find5/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so
 
 
 # Binaries
@@ -58,7 +64,10 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/bin/efsks:system/bin/efsks \
 	vendor/oppo/find5/proprietary/bin/ks:system/bin/ks \
 	vendor/oppo/find5/proprietary/bin/qcks:system/bin/qcks \
+	vendor/oppo/find5/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/oppo/find5/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/oppo/find5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
+
 
 
 # Vendor firmwares
