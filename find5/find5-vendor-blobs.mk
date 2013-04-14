@@ -46,7 +46,8 @@ PRODUCT_COPY_FILES += \
 
 
 # Binaries
-# PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
+	vendor/oppo/find5/proprietary/bin/qcks:system/bin/qcks
 
 
 
