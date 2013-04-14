@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Libraries needed at build time
+PRODUCT_COPY_FILES += \
+	vendor/oppo/find5/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
+
 # Libraries
 PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
@@ -31,7 +35,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
 	vendor/oppo/find5/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/oppo/find5/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-	vendor/oppo/find5/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/oppo/find5/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/oppo/find5/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/oppo/find5/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
 	vendor/oppo/find5/proprietary/lib/libdiag.so:system/lib/libdiag.so \
