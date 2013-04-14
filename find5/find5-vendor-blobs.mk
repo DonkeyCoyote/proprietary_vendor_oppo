@@ -55,9 +55,10 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
+	vendor/oppo/find5/proprietary/bin/efsks:system/bin/efsks \
+	vendor/oppo/find5/proprietary/bin/ks:system/bin/ks \
 	vendor/oppo/find5/proprietary/bin/qcks:system/bin/qcks \
 	vendor/oppo/find5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
-
 
 
 # Vendor firmwares
