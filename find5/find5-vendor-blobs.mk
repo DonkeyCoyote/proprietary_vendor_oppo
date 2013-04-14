@@ -69,6 +69,11 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/oppo/find5/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
+	vendor/oppo/find5/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
+	vendor/oppo/find5/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
+	vendor/oppo/find5/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
+	vendor/oppo/find5/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
 	vendor/oppo/find5/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
 	vendor/oppo/find5/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
 	vendor/oppo/find5/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
@@ -79,4 +84,4 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
 	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
-	
+
