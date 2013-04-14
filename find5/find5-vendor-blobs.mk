@@ -61,11 +61,16 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
+	vendor/oppo/find5/proprietary/bin/btnvtool:system/bin/btnvtool \
+	vendor/oppo/find5/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/oppo/find5/proprietary/bin/efsks:system/bin/efsks \
+	vendor/oppo/find5/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/oppo/find5/proprietary/bin/ks:system/bin/ks \
+	vendor/oppo/find5/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/oppo/find5/proprietary/bin/qcks:system/bin/qcks \
 	vendor/oppo/find5/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/oppo/find5/proprietary/bin/qseecomd:system/bin/qseecomd \
+	vendor/oppo/find5/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/oppo/find5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
 
 
