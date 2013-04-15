@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/oppo/find5/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+	vendor/oppo/find5/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/oppo/find5/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
 	vendor/oppo/find5/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
 	vendor/oppo/find5/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
@@ -44,7 +45,12 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
 	vendor/oppo/find5/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/oppo/find5/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+	vendor/oppo/find5/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/oppo/find5/proprietary/lib/libidl.so:system/lib/libidl.so \
+	vendor/oppo/find5/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+	vendor/oppo/find5/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/oppo/find5/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/oppo/find5/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
 	vendor/oppo/find5/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/oppo/find5/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/oppo/find5/proprietary/lib/libqmi.so:system/lib/libqmi.so \
