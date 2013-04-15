@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-	vendor/oppo/find5/proprietary/lib/libqmi_csi.so:system/lib/libmi_csi.so \
-	vendor/oppo/find5/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libmi_csvt_srvc.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
+	vendor/oppo/find5/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/oppo/find5/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/oppo/find5/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
