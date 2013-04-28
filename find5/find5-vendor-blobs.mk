@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/oppo/find5/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
 	vendor/oppo/find5/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+	vendor/oppo/find5/proprietary/lib/libAKM.so:system/lib/libAKM.so \
 	vendor/oppo/find5/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/oppo/find5/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
 	vendor/oppo/find5/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
