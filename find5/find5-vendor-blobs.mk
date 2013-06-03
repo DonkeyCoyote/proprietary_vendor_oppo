@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-	vendor/oppo/find5/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/oppo/find5/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
@@ -122,6 +121,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+	vendor/oppo/find5/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+	vendor/oppo/find5/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
