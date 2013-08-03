@@ -133,6 +133,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/oppo/find5/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+	vendor/oppo/find5/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
