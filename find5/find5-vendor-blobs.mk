@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/oppo/find5/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/oppo/find5/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+	vendor/oppo/find5/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/oppo/find5/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/oppo/find5/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/oppo/find5/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
