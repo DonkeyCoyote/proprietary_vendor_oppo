@@ -103,8 +103,10 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/oppo/find5/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
 	vendor/oppo/find5/proprietary/lib/libmercury.so:system/lib/libmercury.so \
-	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so
-	
+	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so \
+	vendor/oppo/find5/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+	vendor/oppo/find5/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
+
 # Binaries
 PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/bin/btnvtool:system/bin/btnvtool \
