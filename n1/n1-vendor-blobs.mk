@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/oppo/n1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/oppo/n1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-	vendor/oppo/n1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	vendor/oppo/n1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -81,5 +81,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
 	vendor/oppo/n1/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
 	vendor/oppo/n1/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-	vendor/oppo/n1/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+	vendor/oppo/n1/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+	vendor/oppo/n1/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+	vendor/oppo/n1/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin
 
