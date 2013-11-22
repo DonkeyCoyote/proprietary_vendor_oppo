@@ -37,13 +37,17 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/oppo/n1/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/oppo/n1/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+	vendor/oppo/n1/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
+	vendor/oppo/n1/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
+	vendor/oppo/n1/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
 	vendor/oppo/n1/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/oppo/n1/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
 	vendor/oppo/n1/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/oppo/n1/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/oppo/n1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/oppo/n1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-	vendor/oppo/n1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
+	vendor/oppo/n1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	vendor/oppo/n1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 
 # Binaries
 PRODUCT_COPY_FILES += \
