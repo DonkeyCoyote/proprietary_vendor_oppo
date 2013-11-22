@@ -47,7 +47,42 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/oppo/n1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/oppo/n1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-	vendor/oppo/n1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+	vendor/oppo/n1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
+
+# Camera
+PRODUCT_COPY_FILES += \
+	vendor/oppo/n1/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+	vendor/oppo/n1/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
+	vendor/oppo/n1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+	vendor/oppo/n1/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+	vendor/oppo/n1/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/oppo/n1/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+	vendor/oppo/n1/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/oppo/n1/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/oppo/n1/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+	vendor/oppo/n1/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/oppo/n1/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+	vendor/oppo/n1/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/oppo/n1/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
+	vendor/oppo/n1/proprietary/lib/libC2D2.so:system/lib/.so \
+	vendor/oppo/n1/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+	vendor/oppo/n1/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
+	vendor/oppo/n1/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
+	vendor/oppo/n1/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	vendor/oppo/n1/proprietary/lib/libgesture-core.so:system/lib/libgesture-core.so \
+	vendor/oppo/n1/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -63,7 +98,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/oppo/n1/proprietary/bin/nv_tee:system/bin/nv_tee \
 	vendor/oppo/n1/proprietary/bin/mpdecision:system/bin/mpdecision \
-	vendor/oppo/n1/proprietary/bin/thermald:system/bin/thermald
+	vendor/oppo/n1/proprietary/bin/thermald:system/bin/thermald \
+	vendor/oppo/n1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
 
 
 
