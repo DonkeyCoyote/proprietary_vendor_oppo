@@ -101,7 +101,13 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/bin/thermald:system/bin/thermald \
 	vendor/oppo/n1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
 
+# NFC
+PRODUCT_COPY_FILES += \
+	vendor/oppo/n1/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so
 
+# GPS
+PRODUCT_COPY_FILES += \
+	vendor/oppo/n1/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
 
 # Vendor firmwares
 PRODUCT_COPY_FILES += \
