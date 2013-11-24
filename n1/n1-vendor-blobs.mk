@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libmercury.so:system/lib/libmercury.so \
 	vendor/oppo/n1/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/oppo/n1/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
-	vendor/oppo/n1/proprietary/lib/libC2D2.so:system/lib/.so \
+	vendor/oppo/n1/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/oppo/n1/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
 	vendor/oppo/n1/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
 	vendor/oppo/n1/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
