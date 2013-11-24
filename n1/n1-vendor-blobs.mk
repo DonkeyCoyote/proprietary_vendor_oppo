@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
 	vendor/oppo/n1/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/oppo/n1/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+	vendor/oppo/n1/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
 	vendor/oppo/n1/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/oppo/n1/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/oppo/n1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -107,7 +108,12 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-	vendor/oppo/n1/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+	vendor/oppo/n1/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/oppo/n1/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+	vendor/oppo/n1/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/oppo/n1/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/oppo/n1/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+	vendor/oppo/n1/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
 
 # Vendor firmwares
 PRODUCT_COPY_FILES += \
