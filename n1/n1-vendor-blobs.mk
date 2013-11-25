@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/oppo/n1/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/oppo/n1/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+	vendor/oppo/n1/proprietary/lib/libAKM.so:system/lib/libAKM.so \
 	vendor/oppo/n1/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
 	vendor/oppo/n1/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
 	vendor/oppo/n1/proprietary/lib/libgsl.so:system/lib/libgsl.so \
