@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
 	vendor/oppo/n1/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
 	vendor/oppo/n1/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/oppo/n1/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
 	vendor/oppo/n1/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/oppo/n1/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
 	vendor/oppo/n1/proprietary/lib/libgemini.so:system/lib/libgemini.so \
