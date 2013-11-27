@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-	vendor/oppo/n1/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/oppo/n1/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
 	vendor/oppo/n1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/oppo/n1/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
 	vendor/oppo/n1/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
