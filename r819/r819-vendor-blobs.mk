@@ -43,4 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r819/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/oppo/r819/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/oppo/r819/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
+    vendor/oppo/r819/proprietary/lib/libdpframework_os.so:system/lib/libdpframework_os.so \
+    vendor/oppo/r819/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
     vendor/oppo/r819/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl
