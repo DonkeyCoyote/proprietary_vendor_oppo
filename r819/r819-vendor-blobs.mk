@@ -45,4 +45,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r819/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/oppo/r819/proprietary/lib/libdpframework_os.so:system/lib/libdpframework_os.so \
     vendor/oppo/r819/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
-    vendor/oppo/r819/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl
+    vendor/oppo/r819/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
+    vendor/oppo/r819/proprietary/lib/libnvram.so:system/lib/libnvram.so \
+    vendor/oppo/r819/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+    vendor/oppo/r819/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    vendor/oppo/r819/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
+    vendor/oppo/r819/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
+    vendor/oppo/r819/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
+    vendor/oppo/r819/proprietary/bin/rild:system/bin/rild
