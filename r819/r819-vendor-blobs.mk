@@ -52,4 +52,27 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r819/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/oppo/r819/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/oppo/r819/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
-    vendor/oppo/r819/proprietary/bin/rild:system/bin/rild
+    vendor/oppo/r819/proprietary/bin/rild:system/bin/rild \
+    vendor/oppo/r819/proprietary/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
+    vendor/oppo/r819/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628_patch_e2_0_hdr.bin:system/etc/firmware/mt6628_patch_e2_0_hdr.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628_patch_e1_hdr.bin:system/etc/firmware/mt6628_patch_e1_hdr.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/modem.img:system/etc/firmware/modem.img \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v4_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v4_coeff.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v2_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v2_patch.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v2_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v2_coeff.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v5_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v5_coeff.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_rom.bin:system/etc/firmware/mt6628/mt6628_fm_rom.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v3_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v3_coeff.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v3_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v3_patch.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v1_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v1_patch.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v1_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v1_coeff.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v4_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v4_patch.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628/mt6628_fm_v5_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v5_patch.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/WIFI_RAM_CODE_MT6628:system/etc/firmware/WIFI_RAM_CODE_MT6628 \
+    vendor/oppo/r819/proprietary/etc/firmware/m6628_ant_m1.cfg:system/etc/firmware/mt6628_ant_m1.cfg \
+    vendor/oppo/r819/proprietary/etc/firmware/catcher_filter.bin:system/etc/firmware/catcher_filter.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
+    vendor/oppo/r819/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
+    vendor/oppo/r819/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg
+
