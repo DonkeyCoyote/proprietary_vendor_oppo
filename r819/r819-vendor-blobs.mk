@@ -47,12 +47,18 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r819/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
     vendor/oppo/r819/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/oppo/r819/proprietary/lib/libnvram.so:system/lib/libnvram.so \
+    vendor/oppo/r819/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
+    vendor/oppo/r819/proprietary/lib/libhwm.so:system/lib/libhwm.so \
+    vendor/oppo/r819/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/oppo/r819/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/oppo/r819/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/oppo/r819/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/oppo/r819/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/oppo/r819/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/oppo/r819/proprietary/bin/rild:system/bin/rild \
+    vendor/oppo/r819/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/oppo/r819/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+    vendor/oppo/r819/proprietary/bin/hald:system/bin/hald \
     vendor/oppo/r819/proprietary/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
     vendor/oppo/r819/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
     vendor/oppo/r819/proprietary/etc/firmware/mt6628_patch_e2_0_hdr.bin:system/etc/firmware/mt6628_patch_e2_0_hdr.bin \
