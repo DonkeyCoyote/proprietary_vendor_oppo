@@ -145,5 +145,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
 	vendor/oppo/find5/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-	vendor/oppo/find5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+	vendor/oppo/find5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
 
