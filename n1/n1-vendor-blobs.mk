@@ -49,7 +49,9 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/oppo/n1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/oppo/n1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-	vendor/oppo/n1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
+	vendor/oppo/n1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/oppo/n1/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/oppo/n1/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
 # Camera
 PRODUCT_COPY_FILES += \
