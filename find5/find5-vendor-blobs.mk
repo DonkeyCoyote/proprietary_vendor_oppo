@@ -19,28 +19,22 @@ PRODUCT_COPY_FILES += \
 # Libraries
 PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-	vendor/oppo/find5/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-	vendor/oppo/find5/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
 	vendor/oppo/find5/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-	vendor/oppo/find5/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    vendor/oppo/find5/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
 	vendor/oppo/find5/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/oppo/find5/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/oppo/find5/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
 	vendor/oppo/find5/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
 	vendor/oppo/find5/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
 	vendor/oppo/find5/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
-	vendor/oppo/find5/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/oppo/find5/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
 	vendor/oppo/find5/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/oppo/find5/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-	vendor/oppo/find5/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/oppo/find5/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-	vendor/oppo/find5/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/oppo/find5/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/oppo/find5/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/oppo/find5/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -86,7 +80,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
 	vendor/oppo/find5/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/oppo/find5/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-	vendor/oppo/find5/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
 	vendor/oppo/find5/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/oppo/find5/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/oppo/find5/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -105,12 +98,12 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libmercury.so:system/lib/libmercury.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so \
 	vendor/oppo/find5/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-	vendor/oppo/find5/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
+	vendor/oppo/find5/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+	vendor/oppo/find5/proprietary/lib/libmorpho_photosolid.so:system/lib/libmorpho_photosolid.so
 
 # Binaries
 PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/oppo/find5/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/oppo/find5/proprietary/bin/efsks:system/bin/efsks \
 	vendor/oppo/find5/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/oppo/find5/proprietary/bin/ks:system/bin/ks \
@@ -145,5 +138,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
 	vendor/oppo/find5/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
 	vendor/oppo/find5/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-	vendor/oppo/find5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+	vendor/oppo/find5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+	vendor/oppo/find5/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
 
