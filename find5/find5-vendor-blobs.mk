@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/oppo/find5/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
 	vendor/oppo/find5/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/oppo/find5/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/oppo/find5/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
