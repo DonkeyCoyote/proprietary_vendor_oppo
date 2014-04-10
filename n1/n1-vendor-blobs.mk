@@ -72,21 +72,17 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/n1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/oppo/n1/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/oppo/n1/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-	vendor/oppo/n1/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
 	vendor/oppo/n1/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
 	vendor/oppo/n1/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	vendor/oppo/n1/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
 	vendor/oppo/n1/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/oppo/n1/proprietary/lib/libmercury.so:system/lib/libmercury.so \
 	vendor/oppo/n1/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/oppo/n1/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
 	vendor/oppo/n1/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/oppo/n1/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-	vendor/oppo/n1/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
 	vendor/oppo/n1/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
 	vendor/oppo/n1/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-	vendor/oppo/n1/proprietary/lib/libgesture-core.so:system/lib/libgesture-core.so \
-	vendor/oppo/n1/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so
+	vendor/oppo/n1/proprietary/lib/libmmjpeg.so:system/lib/libmmparser.so \
+	vendor/oppo/n1/proprietary/lib/libmmjpeg.so:system/lib/libmmosal.so	
 
 # Binaries
 PRODUCT_COPY_FILES += \
