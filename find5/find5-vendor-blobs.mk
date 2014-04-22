@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/oppo/find5/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/oppo/find5/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    vendor/oppo/find5/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
 	vendor/oppo/find5/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/oppo/find5/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/oppo/find5/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
