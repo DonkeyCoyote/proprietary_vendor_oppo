@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
 	$(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	$(LOCAL_PATH)/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-	$(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
+	$(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	$(LOCAL_PATH)/proprietary/etc:system/etc \
 	$(LOCAL_PATH)/proprietary/etc/firmware:system/etc/firmware \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
