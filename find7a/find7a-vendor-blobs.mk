@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/efsks:system/bin/efsks \
 	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/proprietary/bin/ks:system/bin/ks \
+	$(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
 	$(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
