@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The OmniROM Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7a/overlay
+LOCAL_PATH := $(call my-dir)
 
-PRODUCT_PACKAGES += libtime_genoff
+ifneq ($(filter find7a,$(TARGET_DEVICE)),)
 
-$(call inherit-product, vendor/oppo/find7a/find7a-vendor-blobs.mk)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtime_genoff
+LOCAL_SRC_FILES := libtime_genoff.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+include $(BUILD_PREBUILT)
+
+endif
+
