@@ -231,5 +231,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
+	$(LOCAL_PATH)/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so    
 
