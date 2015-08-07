@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7a/overlay
-
-PRODUCT_PACKAGES += libtime_genoff
+DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7op/overlay
 
 $(call inherit-product, vendor/oppo/find7op/find7op-vendor-blobs.mk)
