@@ -14,6 +14,4 @@
 
 DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7a/overlay
 
-PRODUCT_PACKAGES += libtime_genoff
-
 $(call inherit-product, vendor/oppo/find7a/find7a-vendor-blobs.mk)
