@@ -50,7 +50,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
 	$(LOCAL_PATH)/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
 	$(LOCAL_PATH)/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
-	$(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so
+	$(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+	$(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \

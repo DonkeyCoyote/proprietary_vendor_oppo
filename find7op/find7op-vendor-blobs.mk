@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/acdb/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdb/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdb/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdb/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+	$(LOCAL_PATH)/proprietary/etc/acdb/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+	$(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
