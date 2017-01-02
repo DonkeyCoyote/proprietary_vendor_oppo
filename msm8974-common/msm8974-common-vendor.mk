@@ -17,3 +17,5 @@ DEVICE_PACKAGE_OVERLAYS := vendor/oppo/msm8974-common/overlay
 PRODUCT_PACKAGES += libtime_genoff
 
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor-blobs.mk)
+
+$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
