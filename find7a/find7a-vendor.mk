@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/etc/acdb/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/oppo/find7a/proprietary/etc/acdb/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/oppo/find7a/proprietary/etc/acdb/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oppo/find7a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/oppo/find7a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/lib/libpn544_fw.so
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/find7a/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/oppo/find7a/proprietary/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
