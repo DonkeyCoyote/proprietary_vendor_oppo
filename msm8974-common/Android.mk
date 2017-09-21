@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter find7 find7s n3,$(TARGET_DEVICE)),)
+ifneq ($(filter find7 find7a find7op n3 ,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmdmdetect
