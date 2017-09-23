@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/lib/libpn544_fw.so
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/find7a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/oppo/find7a/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/oppo/find7a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/find7a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/find7a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
