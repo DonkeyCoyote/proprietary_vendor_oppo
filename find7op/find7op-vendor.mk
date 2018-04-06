@@ -262,3 +262,5 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel
 endif
+
+$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
